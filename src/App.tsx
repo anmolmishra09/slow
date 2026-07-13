@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState, useCallback } from "react";
+import { FaInstagram } from "react-icons/fa";
 import {
   Menu,
   X,
@@ -7,7 +8,6 @@ import {
   MapPin,
   Phone,
   Mail,
-  Instagram,
   Quote,
   Sparkles,
   Heart,
@@ -709,7 +709,7 @@ function Footer() {
           <span>Fleur&nbsp;&amp;&nbsp;Co.</span>
         </a>
         <a href="#" aria-label="Instagram" className="footer__social">
-          <Instagram size={18} strokeWidth={1.6} />
+    <FaInstagram size={18} />
         </a>
       </div>
       <p className="footer__tag">Wedding &amp; event direction, built around your family — Bengaluru &amp; worldwide.</p>
